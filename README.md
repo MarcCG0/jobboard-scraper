@@ -1,13 +1,8 @@
 # 🚀 Job Scraper
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/MarcCG0/job-scraper)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/MarcCG0/job-scraper/[workflow-name])
 ![GitHub](https://img.shields.io/github/license/MarcCG0/job-scraper)
-![GitHub stars](https://img.shields.io/github/stars/MarcCG0/job-scraper?style=social)
-![GitHub issues](https://img.shields.io/github/issues/MarcCG0/job-scraper)
-![GitHub forks](https://img.shields.io/github/forks/MarcCG0/job-scraper?style=social)
-![Docker Pulls](https://img.shields.io/docker/pulls/[your-docker-hub-username]/job-scraper)
-![Twitter Follow](https://img.shields.io/twitter/follow/[your-twitter-handle]?style=social)
+
 
 
 ## Overview
