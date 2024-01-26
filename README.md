@@ -1,7 +1,7 @@
 # 🚀 Job Scraper
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/MarcCG0/job-scraper)
-![GitHub](https://img.shields.io/github/license/MarcCG0/job-scraper)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
