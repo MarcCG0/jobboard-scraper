@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "4000:80"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_NAME=jobopportunities
+      - DATABASE_USER=marc
+      - DATABASE_PASSWORD=password
+      - TABLE_NAME=job_opportunities
+
+  db:
+    image: postgres:latest
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: jobopportunities
+      POSTGRES_USER: marc
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"  
+
+volumes:
+  postgres_data:
